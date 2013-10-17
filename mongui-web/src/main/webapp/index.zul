@@ -1,0 +1,9 @@
+<zk>
+	<window apply="es.ynel.mongui.zk.window.DatabaseWnd">
+		<listbox id="databases" mold="select" />
+		<listbox id="collections" mold="select" />
+		<space />
+		<tree id="data" width="99%"/>
+		<button id="delete" label="Delete" />
+	</window>
+</zk>
